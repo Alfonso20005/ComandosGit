@@ -10,6 +10,8 @@
   * [Historial y visualización](#historial-y-visualización)
   * [Deshacer cambios](#deshacer-cambios)
   * [Fusionar una rama a otra](#fusionar-una-rama-a-otra)
+  * [Dato curioso](#dato-curioso)
+  
 
 
 ## Breve introduccion sobre git
@@ -129,5 +131,5 @@ E --> |git merge| D(Master)
 
 ```
 
-## Dato curioso de porque la mascota de git es un gato
+## Dato curioso
 Su mascota oficial es un gato llamado `Octocat`. Esta mascota es una figura icónica asociada con GitHub y se utiliza en varios lugares, como en la página de inicio de GitHub, en camisetas. El `Octocat` combina la palabra `octo`, que significa `ocho` en referencia a los ocho brazos de un pulpo, con `cat`, que es `gato` en inglés, para representar la idea de que GitHub te ayuda a hacer más en menos tiempo, como si tuvieras múltiples brazos.

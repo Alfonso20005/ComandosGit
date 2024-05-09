@@ -43,6 +43,15 @@ Configura el correo electrónico asociado con tus commits.
 ```bash
     git add .
 ```
+
+> [!NOTE]\
+> Puedes utilizar etiquetas anotadas para marcar puntos específicos en la historia de tu repositorio. Estas etiquetas son útiles para marcar versiones de lanzamiento, o cualquier punto que desees resaltar en tu historial.
+```bash
+    git tag -a <nombre_etiqueta> -m "mensaje descriptivo"
+```
+![git tag](gitTag.jpg)
+
+
 - `git commit -am "Mensaje del commit"`: Agrega un archivo al área de preparación y crea un nuevo commit y un mensaje descriptivo.
 ```bash
     git commit -am "Mi primer Markdown"
@@ -55,7 +64,7 @@ C[Master] --> |git commit -am| D(subrama)
 A[Master] --> |git checkout -b subrama| C(subrama)
 ```
 
-- `git commit --amend`: Si has escrito mal un commit con este comando puedes modificarlo, tienes que pulsar la tecla <strong>"i"<strong> para poder añadir texto.
+- `git commit --amend`: Si has escrito mal un commit con este comando puedes modificarlo, tienes que pulsar la tecla <strong>`i`<strong> para poder añadir texto.
 
 - `git status`: Muestra el estado actual del repositorio, incluyendo archivos modificados, agregados y pendientes de commit.
 ```bash
@@ -100,8 +109,8 @@ A[Master] --> |git checkout -b subrama| C(subrama)
 |`git reset --hard`           | Restaura el directorio de trabajo al estado del último commit, deshaciendo los cambios locales.                                                                  |
 |`git revert <hash_commit>`   | Crea un nuevo commit que deshace los cambios introducidos por un commit anterior, revirtiendo esos cambios.                                                                  |
 
-
-
+> [!WARNING]\
+>Este comando puede deshacer cambios en el área de trabajo y el índice, lo que significa que puede eliminar permanentemente los cambios no guardados y deshacer los commits, incluso eliminando archivos de seguimiento. Por lo tanto, es importante tener cuidado al usar este comando, ya que puede causar pérdida de trabajo no guardado o cambios importantes en el historial del repositorio.
 
 ## Fusionar una rama a otra
 - `git merge <archivo que quieres volcar> <archivo en el que lo quieres volcar>`: Se utiliza para combinar los cambios de una rama en otra
@@ -120,3 +129,5 @@ E --> |git merge| D(Master)
 
 ```
 
+## Dato curioso de porque la mascota de git es un gato
+Su mascota oficial es un gato llamado `Octocat`. Esta mascota es una figura icónica asociada con GitHub y se utiliza en varios lugares, como en la página de inicio de GitHub, en camisetas. El `Octocat` combina la palabra `octo`, que significa `ocho` en referencia a los ocho brazos de un pulpo, con `cat`, que es `gato` en inglés, para representar la idea de que GitHub te ayuda a hacer más en menos tiempo, como si tuvieras múltiples brazos.

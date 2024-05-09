@@ -51,7 +51,7 @@ Configura el correo electrónico asociado con tus commits.
 ```bash
     git tag -a <nombre_etiqueta> -m "mensaje descriptivo"
 ```
-![git tag](gitTag.PNG)
+![git tag](gitTag.png)
 
 
 - `git commit -am "Mensaje del commit"`: Agrega un archivo al área de preparación y crea un nuevo commit y un mensaje descriptivo.

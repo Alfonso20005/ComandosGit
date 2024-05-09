@@ -1,4 +1,7 @@
-# COMANDOS DE GIT QUE DEBERIAS SABER
+# GIT
+
+## Breve introduccion sobre git
+Git es un sistema de control de versiones distribuido que permite gestionar el desarrollo de proyectos de software de manera eficiente. Permite rastrear cambios en archivos, colaborar con otros desarrolladores y mantener un historial completo de las modificaciones realizadas en un proyecto.
 
 ## Configuración inicial
 - `git config --global user.name "Tu Nombre"`:

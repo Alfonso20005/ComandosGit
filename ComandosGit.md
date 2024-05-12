@@ -160,6 +160,6 @@ clonar tu repositorio a tu ordenador, porque si empiezas primero a hacerlo por t
 
     > [!IMPORTANT]\
     > Cuando elimines el repositorio te pedira que vuelvas a poner tu contraseña
-
+    
 ## Dato curioso
 Su mascota oficial es un gato llamado `Octocat`. Esta mascota es una figura icónica asociada con GitHub y se utiliza en varios lugares, como en la página de inicio de GitHub, en camisetas. El `Octocat` combina la palabra `octo`, que significa `ocho` en referencia a los ocho brazos de un pulpo, con `cat`, que es `gato` en inglés, para representar la idea de que GitHub te ayuda a hacer más en menos tiempo, como si tuvieras múltiples brazos.

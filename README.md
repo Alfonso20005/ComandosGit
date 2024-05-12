@@ -1,5 +1,4 @@
-
-# APRENDE GIT
+# APRENDE GIT y GITHUB
 
 ## ÍNDICE
 - [Introduccion Git](#breve-introduccion-sobre-git)
@@ -11,6 +10,7 @@
   * [Historial y visualización](#historial-y-visualización)
   * [Deshacer cambios](#deshacer-cambios)
   * [Fusionar una rama a otra](#fusionar-una-rama-a-otra)
+  * [Guía para crear y gestionar un proyecto en GitHub](#guía-para-crear-y-gestionar-un-proyecto-en-github)
   * [Dato curioso](#dato-curioso)
   
 
@@ -35,7 +35,7 @@ Configura el correo electrónico asociado con tus commits.
 ## Iniciar un repositorio
 - `git init`: Inicia un nuevo repositorio Git en el directorio actual.
 
-![git init](GitInit.PNG)
+![git init](Imagenes/GitInit.PNG)
 
 ## Trabajar con cambios
 - `git add <archivo>`: Agrega un archivo al área de preparación para ser incluido en el próximo commit.
@@ -52,7 +52,7 @@ Configura el correo electrónico asociado con tus commits.
 ```bash
     git tag -a <nombre_etiqueta> -m "mensaje descriptivo"
 ```
-![git tag](gitTag.png)
+![git tag](Imagenes/gitTag.png)
 
 
 - `git commit -am "Mensaje del commit"`: Agrega un archivo al área de preparación y crea un nuevo commit y un mensaje descriptivo.
@@ -73,7 +73,7 @@ A[Master] --> |git checkout -b subrama| C(subrama)
 ```bash
     git status
 ```
-![git status](GitStatus.PNG)
+![git status](Imagenes/GitStatus.PNG)
 
 - `git checkout -b subrama`: Crea una nueva rama llamada "subrama" y cambia a esa rama en tu repositorio de Git.
 ```mermaid
@@ -99,11 +99,11 @@ A[Master] --> |git checkout -b subrama| C(subrama)
 
 ## Historial y visualización
 - `git log`: Muestra el historial de commits.
-![git log](gitLog.PNG)
+![git log](Imagenes/gitLog.PNG)
 - `git diff`: Muestra las diferencias entre el área de preparación y el directorio de trabajo.
-![git diff](gitDiff.png)
+![git diff](Imagenes/gitDiff.png)
 - `git show <hash_commit>`: Muestra información detallada sobre un commit específico.
-![git show](gitShow.PNG)
+![git show](Imagenes/gitShow.PNG)
 
 ## Deshacer cambios
 |  Comando                    |Descripcion                                                                  |
@@ -131,6 +131,36 @@ C --> |git add / git commit| E(subrama)
 E --> |git merge| D(Master)
 
 ```
+
+## Guía para crear y gestionar un proyecto en GitHub
+
+1. **Crea una cuenta en GitHub:** Si aún no tienes una cuenta, ve a [GitHub.com](https://github.com/) y regístrate.
+   
+2. **Inicia sesión en tu cuenta:** Una vez que tengas una cuenta, inicia sesión en GitHub.
+   
+3. **Crea un nuevo repositorio:** En tu perfil de GitHub, haz clic en el botón "Nuevo repositorio" o "New repository".
+![nuevo repositorio](Imagenes/NewRepository.jpg)
+   
+4. **Completa la información del repositorio:** Dale un nombre descriptivo a tu repositorio y opcionalmente, una descripción. Puedes elegir si quieres que el repositorio sea público o privado.
+  ![descripcion](Imagenes/descripcion.png) 
+   
+5. **Clona el repositorio en tu ordenador:** Usa el comando `git clone` seguido de la URL de tu repositorio para copiarlo en tu ordenador y trabajar en él localmente.
+
+> [!TIP]\
+> Te recomendaria primero crear tu repositorio en github antes y asi podras 
+clonar tu repositorio a tu ordenador, porque si empiezas primero a hacerlo por tu cuenta en un editor y luego creas un proyecto en github puede que tengas problemas luego al intentar subirlo
+
+
+6. **Eliminar tu repositorio de github:** 
+    -  En la barra de menú del repositorio, haz clic en `"Settings"` o "Configuración".
+    ![Settings](Imagenes/Settings.png) 
+    -  Vete abajo del todo hasta la zona donde pone `"Danger Zone"` y dale a `"delete this repository"`.
+    ![delete](Imagenes/Eliminar.JPG) 
+    - Te pedirá que confirmes que quieres borrar
+    ![confirm](Imagenes/Confirmar.JPG) 
+
+    > [!NOTE]\
+    > Cuando elimines el repositorio te pedira que vuelvas a poner tu contraseña
 
 ## Dato curioso
 Su mascota oficial es un gato llamado `Octocat`. Esta mascota es una figura icónica asociada con GitHub y se utiliza en varios lugares, como en la página de inicio de GitHub, en camisetas. El `Octocat` combina la palabra `octo`, que significa `ocho` en referencia a los ocho brazos de un pulpo, con `cat`, que es `gato` en inglés, para representar la idea de que GitHub te ayuda a hacer más en menos tiempo, como si tuvieras múltiples brazos.

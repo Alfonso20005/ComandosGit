@@ -150,6 +150,10 @@ E --> |git merge| D(Master)
 > Te recomendaria primero crear tu repositorio en github antes y asi podras 
 clonar tu repositorio a tu ordenador, porque si empiezas primero a hacerlo por tu cuenta en un editor y luego creas un proyecto en github puede que tengas problemas luego al intentar subirlo
 
+
+    > [!NOTE]\
+    > Cuando elimines el repositorio te pedira que vuelvas a poner tu contraseña
+
 6. **Eliminar tu repositorio de github:** 
     -  En la barra de menú del repositorio, haz clic en `"Settings"` o "Configuración".
     ![Settings](Imagenes/Settings.png) 
@@ -157,9 +161,7 @@ clonar tu repositorio a tu ordenador, porque si empiezas primero a hacerlo por t
     ![delete](Imagenes/Eliminar.JPG) 
     - Te pedirá que confirmes que quieres borrar
     ![confirm](Imagenes/Confirmar.JPG) 
-
-    > [!NOTE]\
-    > Cuando elimines el repositorio te pedira que vuelvas a poner tu contraseña
+ 
 
 ## Dato curioso
 Su mascota oficial es un gato llamado `Octocat`. Esta mascota es una figura icónica asociada con GitHub y se utiliza en varios lugares, como en la página de inicio de GitHub, en camisetas. El `Octocat` combina la palabra `octo`, que significa `ocho` en referencia a los ocho brazos de un pulpo, con `cat`, que es `gato` en inglés, para representar la idea de que GitHub te ayuda a hacer más en menos tiempo, como si tuvieras múltiples brazos.

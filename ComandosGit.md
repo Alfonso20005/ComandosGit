@@ -146,7 +146,7 @@ E --> |git merge| D(Master)
    
 5. **Clona el repositorio en tu ordenador:** Usa el comando `git clone` seguido de la URL de tu repositorio para copiarlo en tu ordenador y trabajar en él localmente.
 
-> .[!TIP].
+> [!TIP]\
 > Te recomendaria primero crear tu repositorio en github antes y asi podras 
 clonar tu repositorio a tu ordenador, porque si empiezas primero a hacerlo por tu cuenta en un editor y luego creas un proyecto en github puede que tengas problemas luego al intentar subirlo
 
@@ -158,7 +158,7 @@ clonar tu repositorio a tu ordenador, porque si empiezas primero a hacerlo por t
     - Te pedirá que confirmes que quieres borrar
     ![confirm](Imagenes/Confirmar.JPG) 
 
-    > .[IMPORTANT]
+    > [!IMPORTANT]\
     > Cuando elimines el repositorio te pedira que vuelvas a poner tu contraseña
 
 ## Dato curioso

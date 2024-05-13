@@ -1,3 +1,6 @@
+
+![Header](Imagenes/github-header-image.png)
+
 # APRENDE GIT y GITHUB
 
 ## ÍNDICE
